@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVC</title>
+</head>
+<body>
+
+    <section id="fullPage">
+        
+    <main>
+        <!-- <button id="startButton hidden">start</button> -->
+        
+        <!-- make elements for all the MVC parts -->
+        <div class = "mvcContainer">
+            <div class ="row1">
+                <div class ="hidden" id="none"></div>
+                <div class ="mvc" id="user">USER</div>
+                <div class ="line line1" id="seg1"></div>
+            </div>
+            <div class="row2">
+                <!-- <div class ="line forceHide"></div> -->
+                <div class ="lineH forceHide"></div>  
+                <div class ="column" id ="column2-1">
+                    <div class ="line line1" id="seg2"></div>    
+                    <div class ="mvc" id="browser">BROWSER</div>
+                    <div class ="line line2" id="seg3"></div>
+                </div>
+                <div class ="lineH"></div>
+                
+                <div class ="lineV"></div>   
+            </div>
+            <div class="row3">
+                <div class="column">
+                    <div class ="mvc" id="view">VIEW</div>
+                </div>
+                <div class="lineH doubleLineH"></div>
+                <div class="column" id="column2-2">
+                    <div class ="line line2" id="seg4"></div> 
+                    <div class ="mvc" id="controller">CONTROLLER</div>
+                    <div class ="line line1" id="seg5"></div> 
+                </div>
+                <div class="lineH"></div>
+                <div class="column" id="column2-3">
+                    <div class ="line" id="seg6"></div> 
+                    <div class ="mvc" id="router">ROUTER</div>
+                    <div class ="line forceHide" id="seg7"></div> 
+                </div>
+            </div>
+            <div class ="row4">
+                <div class="column" id="column4-1">
+                    <div class ="hiddenBlock" id="blank"></div>
+                </div>
+                <div class ="lineH forceHide"></div>
+                <div class="column" id="column4-2">
+                    <div class ="line line1" id="seg8"></div>
+                    <div class ="mvc" id="model">MODEL</div>
+                    <div class ="line forceHide"></div>
+                </div>
+                <div class="lineH doubleLineH"></div>
+                <div class="column" id="column4-3">
+                    <div class ="line forceHide"></div>
+                    <div class ="mvc" id="database">DATABASE</div>
+                    <div class ="line forceHide"></div> 
+                </div>
+            </div>
+        </div>
+    </main>
+    </section>
+    <section class="info">
+        <h1 id="title">MVC</h1>
+        <p id="text">MVC, or model view controller, is a method of organization for programming that abstracts the functionality of the program into 3 distinct parts. The model interacts with the database, the view controls the display, and the controller implements the logic that communicates between everything.</p>
+        <div class="buttons">
+            <button id="prev">prev</button>
+            <button id="next">next</button>
+            <button class="hidden" id="close">close</button>
+        </div>
+    </section>
+</body>
+
+</html>
+<script src="main.js"></script>
